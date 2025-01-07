@@ -13,9 +13,9 @@ This presentation is the Course Project of the Developing Data Products Coursera
 
 It is an R Presentation generated with RStudio.
 
-The Shiny application is available at 
+The Shiny application is available at http://pm-amora.shinyapps.io/Data_Products
 
-The Shiny app source code is available at 
+The Shiny app source code is available at https://github.com/pm-amora/DDP
 
 ## Overview
 
