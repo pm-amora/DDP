@@ -1,0 +1,46 @@
+---
+title: "Volcano App - Developing Data Products Course Project"
+author: "Pedro Medeiros"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
+---
+
+## Introduction
+
+This presentation is the Course Project of the Developing Data Products Coursera course.
+
+It is an R Presentation generated with RStudio.
+
+The Shiny application is available at 
+
+The Shiny app source code is available at 
+
+## Overview
+
+- The application is written in Shiny, a web application framework for R.
+- The source code consists of two files: server.R and ui.R.
+- server.R includes the backend of a Shiny web application.
+- ui.R includes the the user-interface elements.
+- The application is hosted on Rstudio's shiny server.
+
+The application goal is to provide a 3d surface interface to explore the Volcano dataset. The volcano and rainfall dataset are a built-in R dataset that contains a matrix of topographic data combined with the amount of rainfall.
+
+## How the App works?
+
+### Side Panel
+
+The sidebar panel contains interactive input controls, such as sliders, dropdowns, checkboxes, or text inputs. These inputs allow users to specify parameters or settings for the Volcano topography and its amount of rainfall.
+
+Purpose: Collect user preferences and send them to the server.
+
+Interaction: The user changes a value in order to see the different perspectives of the volcano and how the rainfall changes according to its topography.
+
+### Main Panel
+
+The main panel displays the outputs (e.g., plots, tables, text) that are generated based on the user's input.
+
+Purpose: Render and display the result of the user's interaction with the app.
+
+Output: Contents are dynamically updated, in this case the Volcano plot along with the amount of rainfall.
